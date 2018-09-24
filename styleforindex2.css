@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#p2 {
+    list-style-type: none;
+}
+
+#p2:before {
+    content: "\00A7 ";
+}
+
+#p1 {
+    list-style-type: none;
+}
+
+#p1:before {
+    content: "\00B7 ";
+}
